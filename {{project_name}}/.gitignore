@@ -1,0 +1,8 @@
+/target
+Cargo.lock
+.vscode
+.project
+*.tmp
+/src/*.tmp
+tarpaulin-report.html
+default.profraw

@@ -1,0 +1,10 @@
+name = "Cli app Rust template"
+kickstart_version = 1
+directory = "{{project_name}}"
+
+[[variables]]
+name = "project_name"
+default = "project-01"
+prompt = "Project name?"
+validation = "^([a-zA-Z][a-zA-Z0-9_-]+)$"
+
